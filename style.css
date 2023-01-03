@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #fff8f0; 
+}
+
+header {
+    position: fixed;
+    top: -290px;
+    width: 100%;
+    height: 340px;
+    transition: 0.6s;
+    background-color: #1EAEF8;
+    z-index: 1;
+}
+
+#Title {
+    position: relative;
+    top: 290px;
+    left: 10px;
+}
+
+#Lines {
+    position: relative;
+    top: -40px;
+    float: right;
+    right: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.w-6 {
+    transition: 0.4s;
+}
+
+#Lines:hover .w-6 {
+    stroke-width: 2.5px;
+}
+
+header div h1 {
+    font-size: 2.5em;
+    color: #0E5578;
+}
+
+nav {
+    text-align: center;
+}
+
+header ul {
+    position: relative;
+    list-style: none;
+    top: -45px;
+}
+
+header ul li {
+    padding: 4px 0;
+    border-bottom: #0E5578 solid 2px;
+}
+
+header ul li a{
+    color: #0E5578;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+.item:hover{
+    color: wheat;
+}
+
+#sidebar.active {
+    top: 0px;
+}
+
+#Lines.active {
+    transform: rotate(-90deg);
+}
+
+main {
+    margin-top: 60px;
+}
+
+#Intro {
+    text-align: center;
+}
+
+#Intro h2 {
+    color: #0a3d57;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+#Intro p {
+    font-size: 25px;
+    margin: 20px;
+}
+
+#Sections {
+    margin: 40px;
+}
+
+#Architecture {
+    filter: grayscale();
+    transition: 0.6s;
+}
+
+#Frosty {
+    filter: grayscale();
+    transition: 0.6s;
+}
+
+#Miscellaneous {
+    filter: grayscale();
+    transition: 0.6s;
+}
+
+#Nature {
+    filter: grayscale();
+    transition: 0.6s;
+}
+
+#Sky {
+    filter: grayscale();
+    transition: 0.6s;
+}
+
+#Space {
+    filter: grayscale();
+    transition: 0.6s;
+}
+
+#Sunset {
+    filter: grayscale();
+    transition: 0.6s;
+}
+
+#Architecture:hover {
+    filter: grayscale(0);
+}
+
+#Frosty:hover {
+    filter: grayscale(0);
+}
+
+#Miscellaneous:hover {
+    filter: grayscale(0);
+}
+
+#Nature:hover {
+    filter: grayscale(0);
+}
+
+#Sky:hover {
+    filter: grayscale(0);
+}
+
+#Space:hover {
+    filter: grayscale(0);
+}
+
+#Sunset:hover {
+    filter: grayscale(0);
+}
+
+#Architecture h2{
+    margin-top: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #0a3d57;
+}
+
+#Frosty h2{
+    margin-top: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #0a3d57;
+}
+
+#Miscellaneous h2{
+    margin-top: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #0a3d57;
+}
+
+#Nature h2{
+    margin-top: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #0a3d57;
+}
+
+#Sky h2{
+    margin-top: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #0a3d57;
+}
+
+#Space h2{
+    margin-top: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #0a3d57;
+}
+
+#Sunset h2{
+    margin-top: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #0a3d57;
+}
+
+.Image {
+    display: inline-block;
+    margin: 20px 10px 0px 0px;
+    width: 209px;
+    height: 272px;
+    background-color: #fff8f0;
+    border-radius: 3px;
+    border: #0a3d57 solid 3px;
+}
+
+.Image-sideways {
+    display: inline-block;
+    margin: 20px 10px 0px 0px;
+    width: 308px;
+    height: 236px;
+    background-color: #fff8f0;
+    border-radius: 3px;
+    border: #0a3d57 solid 3px;
+}
+
+.Image-sideways img{
+    margin: 10px;
+    width: 288px;
+    height: 216px;
+    transition: 0.4s;
+}
+
+img {
+    width: 189px;
+    height: 252px;
+    margin: 10px;
+    transition: 0.4s;
+}
+
+.SideImg:hover {
+    margin: 0;
+    width: 308px;
+    height: 236px;
+}
+
+img:hover {
+    margin: 0;
+    width: 209px;
+    height: 272px;
+}
+
+footer {
+    background-color: #1EAEF8;
+    height: 55px;
+}
+
+footer p {
+    position: relative;
+    float: right;
+    top: 15px;
+    right: 20px;
+}
+
+#GTT {
+    color: #0E5578;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#GTT:hover {
+    color: wheat;
+}
+
+@media (max-width: 781px) {
+    section {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1600px) {
+    #Architecture {
+        filter: grayscale(0);
+    }
+    
+    #Frosty {
+        filter: grayscale(0);
+    }
+    
+    #Miscellaneous {
+        filter: grayscale(0);
+    }
+    
+    #Nature {
+        filter: grayscale(0);
+    }
+    
+    #Sky {
+        filter: grayscale(0);
+    }
+    
+    #Space {
+        filter: grayscale(0);
+    }
+    
+    #Sunset {
+        filter: grayscale(0);
+    }
+
+    .SideImg:hover {
+        margin: 10px;
+        width: 288px;
+        height: 216px;
+    }
+    
+    img:hover {
+        margin: 10px;
+        width: 189px;
+        height: 252px;
+    }
+}
