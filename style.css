@@ -116,66 +116,66 @@ main {
     margin: 40px;
 }
 
-#ArchImgs {
+#Architecture {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#FrostImgs {
+#Frosty {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#MiscImgs {
+#Miscellaneous {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#NatImgs {
+#Nature {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#SkyImgs {
+#Sky {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#SpaceImgs {
+#Space {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#SunImgs {
+#Sunset {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#ArchImgs:hover {
+#Architecture:hover {
     filter: grayscale(0);
 }
 
-#FrostImgs:hover {
+#Frosty:hover {
     filter: grayscale(0);
 }
 
-#MiscImgs:hover {
+#Miscellaneous:hover {
     filter: grayscale(0);
 }
 
-#NatImgs:hover {
+#Nature:hover {
     filter: grayscale(0);
 }
 
-#SkyImgs:hover {
+#Sky:hover {
     filter: grayscale(0);
 }
 
-#SpaceImgs:hover {
+#Space:hover {
     filter: grayscale(0);
 }
 
-#SunImgs:hover {
+#Sunset:hover {
     filter: grayscale(0);
 }
 
@@ -275,9 +275,6 @@ img:hover {
 }
 
 footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
     background-color: #1EAEF8;
     height: 55px;
 }
@@ -300,88 +297,6 @@ footer p {
 #GTT:hover {
     color: wheat;
 }
-
-button {
-    position: relative;
-    top: -30px;
-    left: 220px;
-    width: 150px;
-    height: 30px;
-    background-color: #1EAEF8;
-    color: #0a3d57;
-    border-radius: 10px;
-    transition: 0.4s;
-    font-size: large;
-}
-
-button:hover {
-    background-color: #1880b4; 
-}
-
-#ArchImgs {
-    height: 0px;
-    overflow: hidden;
-}
-
-#ArchImgs.active {
-    height: 100%;
-}
-
-#FrostImgs {
-    height: 0px;
-    overflow: hidden;
-}
-
-#FrostImgs.active {
-    height: 100%;
-}
-
-#MiscImgs {
-    height: 0px;
-    overflow: hidden;
-}
-
-#MiscImgs.active {
-    height: 100%;
-}
-
-#NatImgs {
-    height: 0px;
-    overflow: hidden;
-}
-
-#NatImgs.active {
-    height: 100%;
-}
-
-#SkyImgs {
-    height: 0px;
-    overflow: hidden;
-}
-
-#SkyImgs.active {
-    height: 100%;
-}
-
-#SpaceImgs {
-    height: 0px;
-    overflow: hidden;
-}
-
-#SpaceImgs.active {
-    height: 100%;
-}
-
-#SunImgs {
-    height: 0px;
-    overflow: hidden;
-}
-
-#sunImgs.active {
-    height: 100%;
-}
-
-
 
 @media (max-width: 781px) {
     section {
