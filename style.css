@@ -28,7 +28,7 @@ header {
 
 #Lines {
     position: relative;
-    top: -45px;
+    top: -40px;
     float: right;
     right: 10px;
     cursor: pointer;
@@ -84,6 +84,10 @@ header ul li a{
     top: 0px;
 }
 
+#sidebar.active + main {
+    filter: grayscale(0.5);
+}
+
 #Lines.active {
     transform: rotate(-90deg);
 }
@@ -112,66 +116,66 @@ main {
     margin: 40px;
 }
 
-#Architecture {
+#ArchImgs {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#Frosty {
+#FrostImgs {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#Miscellaneous {
+#MiscImgs {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#Nature {
+#NatImgs {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#Sky {
+#SkyImgs {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#Space {
+#SpaceImgs {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#Sunset {
+#SunImgs {
     filter: grayscale();
     transition: 0.6s;
 }
 
-#Architecture:hover {
+#ArchImgs:hover {
     filter: grayscale(0);
 }
 
-#Frosty:hover {
+#FrostImgs:hover {
     filter: grayscale(0);
 }
 
-#Miscellaneous:hover {
+#MiscImgs:hover {
     filter: grayscale(0);
 }
 
-#Nature:hover {
+#NatImgs:hover {
     filter: grayscale(0);
 }
 
-#Sky:hover {
+#SkyImgs:hover {
     filter: grayscale(0);
 }
 
-#Space:hover {
+#SpaceImgs:hover {
     filter: grayscale(0);
 }
 
-#Sunset:hover {
+#SunImgs:hover {
     filter: grayscale(0);
 }
 
@@ -271,6 +275,9 @@ img:hover {
 }
 
 footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
     background-color: #1EAEF8;
     height: 55px;
 }
@@ -294,9 +301,95 @@ footer p {
     color: wheat;
 }
 
+button {
+    position: relative;
+    top: -30px;
+    left: 220px;
+    width: 150px;
+    height: 30px;
+    background-color: #1EAEF8;
+    color: #0a3d57;
+    border-radius: 10px;
+    transition: 0.4s;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #1880b4; 
+}
+
+#ArchImgs {
+    height: 0px;
+    overflow: hidden;
+}
+
+#ArchImgs.active {
+    height: 100%;
+}
+
+#FrostImgs {
+    height: 0px;
+    overflow: hidden;
+}
+
+#FrostImgs.active {
+    height: 100%;
+}
+
+#MiscImgs {
+    height: 0px;
+    overflow: hidden;
+}
+
+#MiscImgs.active {
+    height: 100%;
+}
+
+#NatImgs {
+    height: 0px;
+    overflow: hidden;
+}
+
+#NatImgs.active {
+    height: 100%;
+}
+
+#SkyImgs {
+    height: 0px;
+    overflow: hidden;
+}
+
+#SkyImgs.active {
+    height: 100%;
+}
+
+#SpaceImgs {
+    height: 0px;
+    overflow: hidden;
+}
+
+#SpaceImgs.active {
+    height: 100%;
+}
+
+#SunImgs {
+    height: 0px;
+    overflow: hidden;
+}
+
+#sunImgs.active {
+    height: 100%;
+}
+
+
+
 @media (max-width: 781px) {
     section {
         text-align: center;
+    }
+
+    #Lines {
+        top: -45px;
     }
 }
 
