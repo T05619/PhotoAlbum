@@ -28,7 +28,7 @@ header {
 
 #Lines {
     position: relative;
-    top: -40px;
+    top: -45px;
     float: right;
     right: 10px;
     cursor: pointer;
@@ -61,6 +61,11 @@ header ul {
 header ul li {
     padding: 4px 0;
     border-bottom: #0E5578 solid 2px;
+}
+
+header ul li:last-child {
+    padding: 4px 0;
+    border-bottom: none;
 }
 
 header ul li a{
